@@ -1,0 +1,5 @@
+highest = max([10,20,30,5,0,69,80])
+smallest = min([10,20,30,5,0,69,80])
+sumation= sum([10,20,30,5,0,69,80])
+sz= len([10,20,30,5,0,69,80])
+print(highest,smallest, sumation,sz)
