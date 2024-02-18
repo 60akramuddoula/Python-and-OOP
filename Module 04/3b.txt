@@ -1,0 +1,29 @@
+In Python, we can pass a variable number of arguments to a function using special symbols. There are two special symbols:
+
+*args (Non Keyword Arguments)
+**kwargs (Keyword Arguments)
+We use *args and **kwargs as an argument when we are unsure about the number of arguments to pass in the functions.
+
+
+*args (Arbitrary Arguments)
+The *args syntax in Python allows a function to accept a variable number of positional arguments. It collects these arguments into a tuple within the function.
+
+def my_function(*args):
+    for arg in args:
+        print(arg)
+Here's a basic example:
+my_function(1, 2, 3, 4, 5)
+
+The *args collects all the positional arguments (1, 2, 3, 4, 5) into a tuple named args inside the function.
+
+
+**kwargs (Arbitrary Keyword Arguments)
+Similarly, **kwargs allows a function to accept an arbitrary number of keyword arguments. It collects these arguments into a dictionary within the function.
+
+Here's an example:
+def print_kwargs(**kwargs):
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+print_kwargs(a=1, b=2, c=3)
+In this example, example_function accepts both positional and keyword arguments.

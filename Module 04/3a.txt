@@ -1,0 +1,5 @@
+Lists are ordered collections, while dictionaries are unordered collections.
+Lists are accessed by index, while dictionaries are accessed by keys.
+Lists are used for ordered collections of items, while dictionaries are used for key-value pairs where quick access to values using keys is needed.
+Lists use square brackets [], while dictionaries use curly braces {} and key-value pairs.
+Lists can contain duplicate elements, while dictionary keys must be unique.
